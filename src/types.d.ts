@@ -8,10 +8,8 @@ type WeatherContextType = {
 };
 
 type User = {
-  user: {
-    id: string;
-    name: string;
-    email: string;
-    age: number;
-  };
+  id: string;
+  name: string;
+  email: string;
+  age: number;
 };
