@@ -8,6 +8,7 @@ import UserProfile from "./component/context/UserProfile";
 import { UserProvider } from "./component/context/UserContext";
 import Login from "./component/Login";
 import Signup from "./component/Signup";
+import TaskList from "./component/TaskList";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <UserProfile />
         <Login />
         <Signup />
+        <h1>My Tasks</h1>
+        <TaskList />
       </div>
     </UserProvider>
   );

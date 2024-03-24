@@ -13,3 +13,9 @@ type User = {
   email: string;
   age: number;
 };
+
+type Task = {
+  id: number;
+  name: string;
+  completed: boolean;
+};
