@@ -1,7 +1,7 @@
 import ThirdChildComponent from "./ThirdChildComponent";
 
-const SecondChildComponent = ({ user }: User) => {
-  return <ThirdChildComponent user={user} />;
+const SecondChildComponent = ({ id, name, email, age }: User) => {
+  return <ThirdChildComponent id={id} name={name} email={email} age={age} />;
 };
 
 export default SecondChildComponent;
