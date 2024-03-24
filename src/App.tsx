@@ -6,6 +6,8 @@ import Context from "./component/Context";
 import { FormComponent } from "./component/FormComponent";
 import UserProfile from "./component/context/UserProfile";
 import { UserProvider } from "./component/context/UserContext";
+import Login from "./component/Login";
+import Signup from "./component/Signup";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Context />
         <FormComponent />
         <UserProfile />
+        <Login />
+        <Signup />
       </div>
     </UserProvider>
   );
